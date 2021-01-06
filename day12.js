@@ -1,4 +1,4 @@
-function aboutMe(nama, umur, gender, nationality, opacity) {
+function AboutMe(nama, umur, gender, nationality, opacity) {
   this.nama = nama;
   this.gender = gender;
   this.nationality = nationality;
@@ -9,6 +9,6 @@ function aboutMe(nama, umur, gender, nationality, opacity) {
   };
 }
 
-const angga = new aboutMe("Angga", 17, "Lakik", "Indonesia", "Solid");
+const angga = new AboutMe("Angga", 17, "Lakik", "Indonesia", "Solid");
 console.log(angga);
 angga.getName();
